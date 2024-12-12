@@ -32,11 +32,6 @@ export default {
         {
           title: 'Home',
           subtitle: 'Home',
-          image: require('../assets/banner.jpg')
-        },
-        {
-          title: 'Home',
-          subtitle: 'Home',
           image: require('../assets/banner1.jpg')
         }, {
           title: 'Home',
@@ -46,11 +41,7 @@ export default {
           title: 'Home',
           subtitle: 'Home',
           image: require('../assets/banner3.jpg')
-        }, {
-          title: 'Home',
-          subtitle: 'Home',
-          image: require('../assets/banner5.jpg')
-        },
+        }, 
       ],
 
     }
