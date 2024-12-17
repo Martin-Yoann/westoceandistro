@@ -17,6 +17,9 @@
         <!-- <router-link to="/Contact">Contact</router-link> -->
         <!-- <router-link to="/about">持续更新肿</router-link> -->
       </div>
+      <div class="title">
+        <h1>ClearDesk Assist</h1>
+      </div>
     </nav>
     <router-view />
     <DetailView />
@@ -77,7 +80,15 @@ nav {
   display: flex;
   justify-content: space-around;
   position: relative;
-
+  .title {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 21px;
+    font-weight: 600;
+  }
   .navLeft {
     position: absolute;
     left: 0;
